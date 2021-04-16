@@ -3,12 +3,8 @@ server:
 
 spring:
   application:
-    name: cloud-configcenter #这个名称是入驻客户端的名称
-  cloud:
-    config:
-      server:
-        git:
-          uri: 
+    name: cloud-configclient #这个名称是入驻客户端的名称
+
 
 
 eureka:
